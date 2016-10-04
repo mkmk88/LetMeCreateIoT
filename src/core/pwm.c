@@ -1,6 +1,9 @@
 #include "letmecreate/core/pwm.h"
 
+#include <stdio.h>
 #include <p32xxxx.h>
+
+#include "letmecreate/core/common.h"
 
 #define PWMCON                  OC5CON
 #define PWMCONSET               OC5CONSET
