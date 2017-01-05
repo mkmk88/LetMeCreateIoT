@@ -1,6 +1,6 @@
-[submodule "examples/awalwm2m_template/contiki"]
-	path = examples/awalwm2m_template/contiki
-	url = https://github.com/mkmk88/contiki.git
-[submodule "examples/awalwm2m_template/AwaLWM2M"]
-	path = examples/awalwm2m_template/AwaLWM2M
+[submodule "AwaLWM2M"]
+	path = AwaLWM2M
 	url = https://github.com/mkmk88/AwaLWM2M.git
+[submodule "contiki"]
+	path = contiki
+	url = https://github.com/mkmk88/contiki.git

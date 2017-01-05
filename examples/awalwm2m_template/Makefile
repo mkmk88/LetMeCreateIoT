@@ -1,9 +1,9 @@
 TARGET = mikro-e
-CONTIKI=contiki
+CONTIKI=../../contiki
 CONTIKI_WITH_IPV6 = 1
 CONTIKI_WITH_RPL = 0
 USE_CA8210 = 1
-LWM2M_DIR=AwaLWM2M
+LWM2M_DIR=../../AwaLWM2M
 VERSION? = $(shell git describe --abbrev=4 --dirty --always --tags)
 
 CFLAGS += -DVERSION=$(VERSION) -DPROJECT_CONF_H=\"project-conf.h\"
