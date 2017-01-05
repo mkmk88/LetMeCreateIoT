@@ -38,11 +38,13 @@ All drivers are checked out from [LMC 1.3](https://github.com/francois-berder/Le
 ### Installation
 
 ```sh
-$ ./install.sh -p path/to/contiki
+git submodule init && git submodule update
+./install.sh
+cd contiki && git submodule init "dev/ca8210" && git submodule update
 ```
 
-To verify whether installation worked navigate to the examples directory, pick an example of your 
-choice and run
+To verify whether installation worked navigate to the "examples/awalwm2m_template"
+and run
 
 ```sh
 make
